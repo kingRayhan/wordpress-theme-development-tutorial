@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Fashion Blog a Blogging Category Bootstrap Responsive Website Template | Home :: w3layouts</title>   
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,8 +18,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3layouts-top-strip">
 			<div class="container">
 				<div class="logo">
-					<h1><a href="index.html">Fashion Blog</a></h1>
-					<p>lets make a Life style</p>
+					<h1><a href="index.html"><?php bloginfo('name'); ?></a></h1>
+					<p><?php bloginfo('description'); ?></p>
 				</div>
 				<div class="w3ls-social-icons">
 					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
